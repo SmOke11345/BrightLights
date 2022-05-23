@@ -9,7 +9,7 @@ body {
 	width: 1110px;
 	margin: 0 auto;
 	background-color: #1C1B21;
-	background-image: url(../Style/img/Home.svg);
+	background-image: url(./Style/Img/Home.svg);
 	background-repeat: no-repeat;
 	font-family: 'Montserrat';
 	font-weight: 500;
@@ -156,7 +156,7 @@ ol {
 }
 
 .Addres {
-	list-style-image: url(../Style/img/Flag.svg);
+	list-style-image: url(./Style/Img/Flag.svg);
 	font-size: 18px;
 	font-weight: 600;
 	color: white;
@@ -338,7 +338,7 @@ h4 {
 .item {
 	width: 350px;
 	height: 473px;
-	background: url(../Style/img/Carousel/BackgroundTicket.svg);
+	background: url(./Style/Img/Carousel/BackgroundTicket.svg);
 
 }
 
