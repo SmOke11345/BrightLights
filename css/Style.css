@@ -156,7 +156,7 @@ ol {
 }
 
 .Addres {
-	list-style-image: url(./Style/Img/Flag.svg);
+	list-style-image: url(../Style/Img/Flag.svg);
 	font-size: 18px;
 	font-weight: 600;
 	color: white;
@@ -338,7 +338,7 @@ h4 {
 .item {
 	width: 350px;
 	height: 473px;
-	background: url(./Style/Img/Carousel/BackgroundTicket.svg);
+	background: url(../Style/Img/Carousel/BackgroundTicket.svg);
 
 }
 
