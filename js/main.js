@@ -18,7 +18,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    navText:['<img src="../Style/img/Carousel/ArrowLeft.svg">','<img src="../Style/img/Carousel/ArrowRight.svg">'],
+    navText:['<img src="./Style/Img/Carousel/ArrowLeft.svg">','<img src="./Style/Img/Carousel/ArrowRight.svg">'],
     item: 3,
     dots: false,
 })
