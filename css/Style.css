@@ -283,50 +283,31 @@ h4 {
 /*Collage*/
 
 .Collage {
+	display: grid;
 	margin-top: 217px;
+	grid-gap: 25px;
+	grid-template-columns:repeat(4, 1fr);
+
+
 }
 
-.LeftFoto {
-	display: flex;
-	align-items: flex-start;
-
-	position: absolute;
-}
-
-
-.CenterBottom {
+.Bottom__Foto {
 	display: flex;
 	justify-content: center;
-	align-items: center
-}
-
-
-#FotoIn {
+	align-items: center;
+	margin-top: -240px;
+	margin-left: 5px;
 	position: relative;
-	margin-top: 10px;
-	
 }
 
-.TextInFoto {
-	position: absolute;
-	color: #7A66CC;
-	font-size: 24px;
-}
-
-.MarginLeft {
-	margin-left: 30px;
-}
-#Left {
+#leftFoto {
 	height: 255px;
 }
 
-.RightFoto {
-	margin-left: 570px;
-	display: flex;
-}
-
-.Right {
-	margin-left: 30px;
+.TextInFoto {
+    position: absolute;
+    color: #7A66CC;
+    font-size: 24px;
 }
 
 /*Tikets*/
