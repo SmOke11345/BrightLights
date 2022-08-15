@@ -17,10 +17,19 @@ scroll.classList.toggle("active", window.scrollY > 600);
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
     navText:['<img src="./Style/Img/Carousel/ArrowLeft.svg">','<img src="./Style/Img/Carousel/ArrowRight.svg">'],
-    item: 3,
+   
     dots: false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            item: 1,
+        },
+        1280: {
+            item: 3,
+        }
+    }
 })
 
 // Modal window
